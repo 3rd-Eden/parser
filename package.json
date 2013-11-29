@@ -1,0 +1,32 @@
+{
+  "name": "ircb.io-redis",
+  "version": "0.0.0",
+  "description": "Redis based IRC protocol parser based on lua scripting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ircb/parser"
+  },
+  "keywords": [
+    "irc",
+    "ircb",
+    "ircb.io",
+    "protocol",
+    "parser",
+    "redis",
+    "lua"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/ircb/parser/issues"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
+    "leverage": "0.0.4",
+    "redis": "~0.9.1"
+  }
+}
